@@ -43,11 +43,11 @@ This workshop introduces a **scan-to-toolpath pipeline** for robotic bio-printin
 ## Workshop Structure
 
 
-## Day 1 — Workflow + Scan-to-Toolpath Pipeline
+### Day 1 — Workflow + Scan-to-Toolpath Pipeline
 
 Focus: **System overview + sensing + basic robotic control**
 
-### Topics
+#### Topics
 - KUKA|PRC fundamentals
 - Robot coordinate systems & safety logic
 - RealSense scanning workflow
@@ -55,7 +55,7 @@ Focus: **System overview + sensing + basic robotic control**
 - Scan-to-curve / scan-to-surface translation
 - Introduction to toolpath generation
 
-### Files
+#### Files
 
 - [🦗 1.KUKAPRC_Robot_Control_Breakdown.gh](Grasshopper_Houdini/Day_1/1.KUKAPRC_Robot_Control_Breakdown.gh)  
   → Robot setup, motion logic, and command structure  
@@ -67,23 +67,23 @@ Focus: **System overview + sensing + basic robotic control**
   → Translating scan data into growth-based toolpaths  
 
 
-## Day 2 — Dual Extrusion + Generative Toolpaths
+### Day 2 — Dual Extrusion + Generative Toolpaths
 
 Focus: **Material logic + toolpath intelligence**
 
-### Topics
+#### Topics
 - Dual extrusion system setup
 - Material switching strategies
 - Curve-based and field-driven toolpaths
 - Generative pattern systems
 - Data-driven deposition logic
 
-### Outcomes
+#### Outcomes
 - Multi-material toolpaths
 - Controlled variation in extrusion behavior
 - Integration of geometry and fabrication constraints
 
-### Files
+#### Files
 
 - [🌀 1.Houdini.hip](Grasshopper_Houdini/Day_1/1.KUKAPRC_Robot_Control_Breakdown.gh)  
   → Robot setup, motion logic, and command structure  
@@ -95,18 +95,18 @@ Focus: **Material logic + toolpath intelligence**
   → Translating scan data into growth-based toolpaths  
 
 
-## Day 3 — Multi-Object Composition + Non-Planar Printing
+### Day 3 — Multi-Object Composition + Non-Planar Printing
 
 Focus: **Complex fabrication + final production**
 
-### Topics
+#### Topics
 - Multi-object coordination
 - Non-planar slicing strategies
 - Collision-aware toolpaths
 - Adaptive deposition on irregular substrates
 - Final robotic print
 
-### Outcomes
+#### Outcomes
 - Fully integrated scan-to-print workflow
 - Fabrication of complex, non-planar bio-printed structures
 
