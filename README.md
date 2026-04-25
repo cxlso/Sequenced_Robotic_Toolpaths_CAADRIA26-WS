@@ -50,32 +50,28 @@ Focus: **System overview + sensing + basic robotic control**
 #### Topics
 - KUKA|PRC fundamentals
 - Robot coordinate systems & safety logic
-- RealSense scanning workflow
-- Point cloud acquisition in Grasshopper
-- Scan-to-curve / scan-to-surface translation
-- Introduction to toolpath generation
+- Grasshopper-RealSense scanning workflow
+- Introduction to non-planar toolpath generation using differential growth 
 
 #### Files
 
-- [🦗 1.KUKAPRC_Robot_Control_Breakdown.gh](Grasshopper_Houdini/Day_1/1.KUKAPRC_Robot_Control_Breakdown.gh)  
-  → Robot setup, motion logic, and command structure  
-
-- [🦗 2.Scan&Probe.gh](Grasshopper_Houdini/Day_1/2.Scan&Probe.gh)  
-  → Real-time scanning and spatial probing  
-
-- [🦗 3.Scan&PrintGrowth.gh](Grasshopper_Houdini/Day_1/3.Scan&PrintGrowth.gh)  
-  → Translating scan data into growth-based toolpaths  
+- [🦗 1.KUKAPRC_Robot_Control_Breakdown.gh](Grasshopper_Houdini/Day_1/1.KUKAPRC_Robot_Control_Breakdown.gh) → Robot setup, motion logic, and command structure  
+- [🦗 2.Scan&Probe.gh](Grasshopper_Houdini/Day_1/2.Scan&Probe.gh) → Real-time scanning and spatial probing  
+- [🦗 3.Scan&PrintGrowth.gh](Grasshopper_Houdini/Day_1/3.Scan&PrintGrowth.gh) → Translating scan data into growth-based toolpaths  
 
 
 ### Day 2 — Dual Extrusion + Generative Toolpaths
+
+> [!WARNING]  
+> This section is Work-in-progress.
 
 Focus: **Material logic + toolpath intelligence**
 
 #### Topics
 - Dual extrusion system setup
 - Material switching strategies
-- Curve-based and field-driven toolpaths
-- Generative pattern systems
+- Generative pattern systems using Houdini
+- Grasshopper to Houdini bridge
 - Data-driven deposition logic
 
 #### Outcomes
@@ -85,17 +81,17 @@ Focus: **Material logic + toolpath intelligence**
 
 #### Files
 
-- [🌀 1.Houdini.hip](Grasshopper_Houdini/Day_1/1.KUKAPRC_Robot_Control_Breakdown.gh)  
-  → Robot setup, motion logic, and command structure  
 
-- [🌀 2.Houdini.hip](Grasshopper_Houdini/Day_1/2.Scan&Probe.gh)  
-  → Real-time scanning and spatial probing  
-
-- [🌀 3.Houdini.hip](Grasshopper_Houdini/Day_1/3.Scan&PrintGrowth.gh)  
-  → Translating scan data into growth-based toolpaths  
+- [🦗 1.KUKAPRC_Robot_Control_Breakdown.gh](Grasshopper_Houdini/Day_1/1.KUKAPRC_Robot_Control_Breakdown.gh) → Main file
+- [🌀 1.Houdini.hip](Grasshopper_Houdini/Day_1/1.KUKAPRC_Robot_Control_Breakdown.gh) → Robot setup, motion logic, and command structure  
+- [🌀 2.Houdini.hip](Grasshopper_Houdini/Day_1/2.Scan&Probe.gh) → Real-time scanning and spatial probing  
+- [🌀 3.Houdini.hip](Grasshopper_Houdini/Day_1/3.Scan&PrintGrowth.gh) → Translating scan data into growth-based toolpaths  
 
 
 ### Day 3 — Multi-Object Composition + Non-Planar Printing
+
+> [!WARNING]  
+> This section is Work-in-progress.
 
 Focus: **Complex fabrication + final production**
 
@@ -115,8 +111,7 @@ Focus: **Complex fabrication + final production**
 
 Special thanks to:
 
-- **Robots in Architecture** for providing KUKA|PRC Pro licenses  
-- CAADRIA 2026 Workshop organizers 
+**Robots in Architecture** for providing KUKA|PRC Pro licenses and CAADRIA 2026 Workshop organizers and staff.
 
 
 ## License
