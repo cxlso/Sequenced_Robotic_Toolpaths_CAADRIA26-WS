@@ -55,9 +55,9 @@ Focus: **System overview + sensing + basic robotic control**
 
 #### Files
 
-- [🦗 1.KUKAPRC_Robot_Control_Breakdown.gh](Grasshopper_Houdini/Day_1/1.KUKAPRC_Robot_Control_Breakdown.gh) → Robot setup, motion logic, and command structure  
-- [🦗 2.Scan&Probe.gh](Grasshopper_Houdini/Day_1/2.Scan&Probe.gh) → Real-time scanning and spatial probing  
-- [🦗 3.Scan&PrintGrowth.gh](Grasshopper_Houdini/Day_1/3.Scan&PrintGrowth.gh) → Translating scan data into growth-based toolpaths  
+- [🦗 0.KUKAPRC_Robot_Control_Breakdown.gh](Grasshopper_Houdini/Day_1/0.KUKAPRC_Robot_Control_Breakdown.gh) → Robot setup, motion logic, and command structure  
+- [🦗 1.Scan&Probe.gh](Grasshopper_Houdini/Day_1/1.Scan&Probe.gh) → Real-time scanning and spatial probing  
+- [🦗 2.ConformalPrintingGrowth.gh](Grasshopper_Houdini/Day_1/2.ConformalPrintingGrowth.gh) → Translating scan data into growth-based toolpaths  
 
 
 ### Day 2 — Dual Extrusion + Generative Toolpaths
