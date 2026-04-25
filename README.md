@@ -6,7 +6,9 @@
 ## Overview
 
 **Dates:** April 26–28, 2025  |  **Location:** Taiwan  |  **Duration:** 3 Days  |  **Groups:** 4  |  **Hours/Day:** 7 hrs (9:30–13:00 & 14:00–17:30)  
-**Instructors:** Celso Urroz, Heidi Sekardini, Hangchuan Wei  
+**Instructors:** Celso Urroz, Heidi Sekardini, Hangchuan Wei 
+
+[**Workshop Daily Breakdown**](https://docs.google.com/spreadsheets/d/17_4w_V5P2qwq9HPzM9tP29DjK2Ff99BC/edit?gid=1288693011#gid=1288693011) 
 
 This workshop introduces a **scan-to-toolpath pipeline** for robotic bio-printing on organic geometries. Participants will work across sensing, computation, and fabrication, linking:
 
@@ -14,7 +16,7 @@ This workshop introduces a **scan-to-toolpath pipeline** for robotic bio-printin
 - Point cloud processing  
 - Toolpath generation in Grasshopper  
 - Robotic control using KUKA|PRC  
-- Non-planar printing strategies  
+- Non-planar printing strategies
 
 ## Software Requirements
 
@@ -24,18 +26,18 @@ This workshop introduces a **scan-to-toolpath pipeline** for robotic bio-printin
 - [SideFX Houdini](https://www.sidefx.com/download) (Install via launcher, use free Apprentice license) 
   
 ### Grasshopper Plugins
-- [Persistent Data Editor](https://www.food4rhino.com/en/app/persistent-data-editor) (Package Manager) - Improves GH UI (Optional)  
-- [Sunglasses](https://www.food4rhino.com/en/app/sunglasses) (Food4Rhino) - Improves GH UI (Optional)  
-- [Heteroptera](https://www.food4rhino.com/en/app/heteroptera) (Package Manager) - Useful tools  
-- [Pufferfish](https://www.food4rhino.com/en/app/pufferfish) (Food4Rhino) - Useful tools  
-- [Watchdog](https://www.food4rhino.com/en/app/watchdog) (Package Manager) - Avoid Rhino freeze (Optional)  
-- [Radii Capture (RealSense)](https://www.food4rhino.com/en/app/radii-capture-realsense) (Food4Rhino) - RealSense control in GH  
+- [Persistent Data Editor](https://www.food4rhino.com/en/app/persistent-data-editor) (Package Manager) - *Improves GH UI (Optional)*  
+- [Sunglasses](https://www.food4rhino.com/en/app/sunglasses) (Food4Rhino) - *Improves GH UI (Optional)*
+- [Heteroptera](https://www.food4rhino.com/en/app/heteroptera) (Package Manager) - *Useful tools*
+- [Pufferfish](https://www.food4rhino.com/en/app/pufferfish) (Food4Rhino) - *Useful tools*
+- [Watchdog](https://www.food4rhino.com/en/app/watchdog) (Package Manager) - *Avoid Rhino freeze (Optional)*
+- [Radii Capture (RealSense)](https://www.food4rhino.com/en/app/radii-capture-realsense) (Food4Rhino) - *RealSense control in GH* 
 
-- [KUKA|PRC Pro](https://www.food4rhino.com/en/app/kukaprc-parametric-robot-control-grasshopper) - Robot control in GH  
+- [KUKA|PRC Pro](https://www.food4rhino.com/en/app/kukaprc-parametric-robot-control-grasshopper) - *Robot control in GH*  
   Johannes Braumann (Robots in Architecture) provided trial licenses (Expires 31/07/26).  
-  1. Delete existing KUKA|PRC from GH "Components Folder" (if installed)  
-  2. Run [KUKA|PRC Installer](KUKA_PRC_Pro/KUKAprcGH_20260420.exe)  
-  3. Replace license with [KUKAprcLicense.json](KUKA_PRC_Pro/KUKAprcLicense.json)  
+  (1) Delete existing KUKA|PRC from GH "Components Folder" (if installed)  
+  (2) Run [KUKA|PRC Installer](KUKA_PRC_Pro/KUKAprcGH_20260420.exe)  
+  (3) Replace license with [KUKAprcLicense.json](KUKA_PRC_Pro/KUKAprcLicense.json)  
 
 
 ## Workshop Structure
@@ -80,6 +82,17 @@ Focus: **Material logic + toolpath intelligence**
 - Multi-material toolpaths
 - Controlled variation in extrusion behavior
 - Integration of geometry and fabrication constraints
+
+### Files
+
+- [🌀 1.Houdini.hip](Grasshopper_Houdini/Day_1/1.KUKAPRC_Robot_Control_Breakdown.gh)  
+  → Robot setup, motion logic, and command structure  
+
+- [🌀 2.Houdini.hip](Grasshopper_Houdini/Day_1/2.Scan&Probe.gh)  
+  → Real-time scanning and spatial probing  
+
+- [🌀 3.Houdini.hip](Grasshopper_Houdini/Day_1/3.Scan&PrintGrowth.gh)  
+  → Translating scan data into growth-based toolpaths  
 
 
 ## Day 3 — Multi-Object Composition + Non-Planar Printing
