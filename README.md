@@ -5,7 +5,7 @@
 
 ## Overview
 
-**Dates:** April 26–28, 2025  |  **Location:** NYCU  |  **Duration:** 3 Days  |  **Groups:** 4  |  **Hours:** 7 hrs (9:30–13:00 & 14:00–17:30)  
+**Dates:** April 26–28, 2025  |  **Location:** NYCU ([Map](https://maps.app.goo.gl/PSBTLGFX5YvoPecu8))  |  **Duration:** 3 Days  |  **Hours:** 7 hrs (9:30–13:00 & 14:00–17:30)  
 **Instructors:** Celso Urroz, Heidi Sekardini, Hangchuan Wei 
 
 [**Workshop Daily Breakdown**](https://docs.google.com/spreadsheets/d/17_4w_V5P2qwq9HPzM9tP29DjK2Ff99BC/edit?gid=1288693011#gid=1288693011) 
