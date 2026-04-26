@@ -81,11 +81,8 @@ Focus: **Material logic + toolpath intelligence**
 
 #### Files
 
-
-- [🦗 1.KUKAPRC_Robot_Control_Breakdown.gh](Grasshopper_Houdini/Day_1/1.KUKAPRC_Robot_Control_Breakdown.gh) → Main file
-- [🌀 1.Houdini.hip](Grasshopper_Houdini/Day_1/1.KUKAPRC_Robot_Control_Breakdown.gh) → Robot setup, motion logic, and command structure  
-- [🌀 2.Houdini.hip](Grasshopper_Houdini/Day_1/2.Scan&Probe.gh) → Real-time scanning and spatial probing  
-- [🌀 3.Houdini.hip](Grasshopper_Houdini/Day_1/3.Scan&PrintGrowth.gh) → Translating scan data into growth-based toolpaths  
+- [🌀 1.Houdini.hip](https://drive.google.com/file/d/1D6r1pkvCcE77GOPGn3X6i2XArt9IRmPV/view?usp=drive_link) → Main file
+- [🦗 2.csv2GH.gh](https://drive.google.com/file/d/1Ggm_amFFUKOrgamjIPX5dBctKMjkLBKU/view?usp=drive_link) → Import csv to grasshopper and reconstruct the toolpath
 
 
 ### Day 3 — Multi-Object Composition + Non-Planar Printing
