@@ -1,7 +1,7 @@
 # Sequenced Robotic Toolpaths: 3D Scanning and Bio-Printing on Organic Topology
 ###### A scan-to-fabrication workflow integrating sensing, computation, and robotic deposition on organic geometries
 
-![Banner.jpg](Picture/Banner.jpg)
+![Banner.jpg](Pictures/Banner.jpg)
 
 ## Overview
 
@@ -64,9 +64,6 @@ Focus: **System overview + sensing + basic robotic control**
 Find the day-1 scanned geometries 📸 in [**Scans**](Scans) (Point Clouds + Meshes).
 
 ### Day 2 — Dual Extrusion + Generative Toolpaths
-
-> [!WARNING]  
-> This section is Work-in-progress.
 
 Focus: **Material logic + toolpath intelligence**
 
