@@ -83,6 +83,7 @@ Focus: **Material logic + toolpath intelligence**
 
 - [🌀 1.Houdini.hip](https://drive.google.com/file/d/1D6r1pkvCcE77GOPGn3X6i2XArt9IRmPV/view?usp=drive_link) → Main file
 - [🦗 2.csv2GH.gh](https://drive.google.com/file/d/1Ggm_amFFUKOrgamjIPX5dBctKMjkLBKU/view?usp=drive_link) → Import csv to grasshopper and reconstruct the toolpath
+- [🦗 2.csv_example.csv](https://drive.google.com/file/d/1oYJbmjlDPUwq8yJcobVvWQB4HgyHervw/view?usp=drive_link) → csv example for play
 
 
 ### Day 3 — Multi-Object Composition + Non-Planar Printing
