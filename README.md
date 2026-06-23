@@ -51,7 +51,15 @@ Focus: **System overview + sensing + basic robotic control**
 - KUKA|PRC fundamentals
 - Robot coordinate systems & safety logic
 - Grasshopper-RealSense scanning workflow
-- Introduction to non-planar toolpath generation using differential growth 
+- Introduction to non-planar toolpath generation using differential growth
+
+#### End-effector: Dual Extruder | RealSense Combo
+
+Breakdown of our custom extruder developped for the workshop and 3D printed with clear resin to monitor material flow and mixing ratio.
+
+![Extruder.jpg](Pictures/Extruder.jpg)
+
+[Rhino CAD File](DualExtruder_RealSense_Combo/DualExtruder_RealSense_Combo.3dm) & [STL](DualExtruder_RealSense_Combo/DualExtruder.stl) ready to resin print with an SLA printer.
 
 #### Files
 
