@@ -87,6 +87,8 @@ Focus: **Material logic + toolpath intelligence**
 - Controlled variation in extrusion behavior
 - Integration of geometry and fabrication constraints
 
+![GradedMaterial.jpg](Pictures/GradedMaterial.jpg)
+
 #### Files
 
 - [🦗 1.GHScan2Houdini](Grasshopper_Houdini/Day_2/1.GHScan2Houdini.gh) → Import csv to grasshopper and reconstruct the toolpath
@@ -111,6 +113,8 @@ Focus: **Complex fabrication + final production**
 #### Outcomes
 - Fully integrated scan-to-print workflow
 - Fabrication of complex, non-planar bio-printed structures
+
+![ToolpathGenerationLogic.jpg](Pictures/ToolpathGenerationLogic.jpg)
 
 
 ## Acknowledgments
